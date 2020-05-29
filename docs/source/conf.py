@@ -41,7 +41,6 @@ needs_sphinx = '1.8.2'
 extensions = [
     'sphinx.ext.autodoc', 
     'sphinx.ext.napoleon',
-    'rinoh.frontend.sphinx',
     ]
 
 # Add any paths that contain templates here, relative to this directory.
