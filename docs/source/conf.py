@@ -16,7 +16,7 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('../'))
-autodoc_mock_imports = ['avesterra.api', 'avesterra.base']
+autodoc_mock_imports = ['avesterra.api', 'avesterra.base', 'jsonschema']
 
 
 # -- Project information -----------------------------------------------------
