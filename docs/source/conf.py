@@ -12,11 +12,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
-sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('../'))
-autodoc_mock_imports = ['avesterra.api', 'avesterra.base', 'jsonschema']
+# import os
+# import sys
+# sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
@@ -28,7 +26,7 @@ author = 'J Smart, Dave Bridgeland, Norman Kraft, John Cederholm'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '2.5.3'
+release = '2.5.4'
 
 
 # -- General configuration ---------------------------------------------------
@@ -43,7 +41,7 @@ needs_sphinx = '1.8.2'
 extensions = [
     'sphinx.ext.autodoc', 
     'sphinx.ext.napoleon',
-    #'rinoh.frontend.sphinx',
+    'rinoh.frontend.sphinx',
     ]
 
 # Add any paths that contain templates here, relative to this directory.

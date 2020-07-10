@@ -23,6 +23,11 @@ deregister_entity
 
 .. autofunction:: deregister_entity
 
+erase_registry
+--------------
+
+.. autofunction:: erase_registry
+
 save_registry
 -------------
 
